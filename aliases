@@ -1,0 +1,14 @@
+
+# this is csh syntax, bash would be
+# alias name='command'
+
+alias l 'ls -alhF --color=always'
+alias ll 'ls -lF --color=always'
+alias ldot "ls -A | grep '^\.'"
+alias lt 'ls -alhFt'			#sort by time
+
+alias doosh 'du -sh'
+alias .. 'cd ..'
+alias hs 'history | grep $1'		#used like: hs word
+
+alias alice 'cat ~/.cshrc.user | grep alias
